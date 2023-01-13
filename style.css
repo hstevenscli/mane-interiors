@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-transform: uppercase;
+    background-color:#808080;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+
+}
+
+.navbar-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .navbar-item {
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 25px;
+}
+
+.product {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.product-item img {
+    max-width: 60%;
+    padding: 20px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.house1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4pt solid black;
+    margin-bottom: 12pt;
+}
+
+.house2 {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4pt solid black;
+
+}
+
+.image {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 9pt solid black;
+    border-right: 9pt solid black;
+    border-top: 9pt solid black;
+    border-bottom: 9pt solid black;
+
+
+
+}
+
+p {
+    margin: 0;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    box-shadow: none;
+
+}
+a:visited {
+    color: inherit;
+}
+
+.row {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.bookmark {
+    margin-left: 30px;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.contact-information {
+    margin-left: 30px;
+}
